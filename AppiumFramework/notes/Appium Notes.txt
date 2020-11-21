@@ -1,0 +1,74 @@
+
+Install JDK 8 and JAVA_HOME path (https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html)
+Install Android (Android Studio)
+Install Appium server
+Difference between API level and Android version
+Updating Android
+	SDK Platforms
+	
+	- Navigate to SDK Manager and update Android
+	- Application target API levels
+	- Select everything from 6-10
+	
+	SDK Tools
+		- Android SDK build-tools
+		- Android Emulators
+		- Android SDK Platform-tools
+		- Google Play services
+		- Google USB Driver
+		- Google Web Driver
+	
+	Define Environment variable for -- (Path you can get from Android SDK in SDK Manager)
+	
+	1. platform-tools
+	2. tools
+	3. platform
+
+Download and Install ADT (Android Development toolkit)
+
+	https://dl-ssl.google.com/android/eclipse
+	
+In Eclipse >> Go to Windows >> Prefrences >> Update the android sdk location under Android section
+
+Install NodeJS and DotNet Framework
+
+Install APowerMirror to show the connected mobile phone on PC
+
+Enabling Developers mode on Android Phone
+	Settings >> About Phone >> Build Number >> Tap 7 times >> Enable Developer mode
+	Settings >> USB Debugging >> Enable USB Debugging & Stay Awake >> Enable
+
+Make sure traceview.bat file is there in tools folder of Android SDK
+
+Download Selenium and Appium jar files
+
+Android should detect phone connected (Window >> Perspective > Open perspective >> DDMS view)
+
+To verify devices
+	- adb devices
+
+----------------------------------------------------------------------------------------------------------------
+
+Locating Stratergies --
+
+Accessibility ID				Read a unique identifier for a UI element. For XCUITest it is the element's accessibility-id attribute. For Android it is the element's content-desc attribute.
+Class name					For IOS it is the full name of the XCUI element and begins with XCUIElementType. For Android it is the full name of the UIAutomator2 class (e.g.: android.widget.TextView)
+ID						Native element identifier. resource-id for android; name for iOS.
+Name						Name of element
+XPath						Search the app XML source using xpath (not recommended, has performance issues)
+Image						Locate an element by matching it with a base 64 encoded image file
+Android UiAutomator (UiAutomator2 only)		Use the UI Automator API, in particular the UiSelector class to locate elements. In Appium you send the Java code, as a string, to the server, which executes it in the application’s environment, returning the element or elements.
+Android View Tag (Espresso only)		Locate an element by its view tag
+Android Data Matcher (Espresso only)		Locate an element using Espresso DataMatcher
+IOS UIAutomation				When automating an iOS application, Apple’s Instruments framework can be used to find elements
+
+---------------------------------------------------------------------------------------------------------------
+
+UI Automator2
+
+https://developer.android.com/reference/android/support/test/uiautomator/UiSelector
+
+
+XPath = //tagname[@attribute='value']
+
+

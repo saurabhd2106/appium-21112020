@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22460" started-at="2020-11-21T17:29:23 IST" finished-at="2020-11-21T17:29:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22460" started-at="2020-11-21T17:29:23 IST" finished-at="2020-11-21T17:29:45 IST">
+      <class name="com.mmt.tests.MmtTests">
+        <test-method status="PASS" signature="verifyAppInit()[pri:0, instance:com.mmt.tests.MmtTests@1f57539]" name="verifyAppInit" duration-ms="22419" started-at="2020-11-21T17:29:23 IST" finished-at="2020-11-21T17:29:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppInit -->
+      </class> <!-- com.mmt.tests.MmtTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
